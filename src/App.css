@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+/* Colors */
+
+:root {
+  --primary: #5e3bee;
+  --heading-color: #282938;
+  --bg-shade: #f5fcff;
+  --darkblue: #1c1e53;
+  --black: #000000;
+  --white: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Text */
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.75;
+}
+
+.smaller-h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 2;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Navbar Section */
+
+.nav-link-pointer {
+  cursor: pointer;
+}
+
+/* Hero Section */
+
+#hero-section {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: var(--bg-shade);
 }
 
-.App-link {
-  color: #61dafb;
+.profile-pic {
+  max-width:450px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* My Skills Section */
+
+#my-skills {
+  min-height: 100vh;
+}
+
+.card {
+  min-height: 12rem;
+  border: none;
+  background: var(--bg-shade);
+}
+
+.card:hover {
+  border-bottom: 4px solid var(--primary);
+}
+
+.card:hover p {
+  color: var(--darkblue);
+}
+
+/* About Me Section */
+
+#about-me {
+  min-height: 100vh;
+  background: var(--bg-shade);
+}
+
+
+/* My Projects Section */
+
+#my-projects {
+  min-height: 100vh;
+}
+
+/* Contact Me Section */
+
+#contact-me {
+  min-height: 90vh;
+  background: var(--bg-shade);
+}
+
+/* Footer Section */
+
+#footer {
+  height: 10vh;;
 }
