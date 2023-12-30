@@ -6,7 +6,6 @@ export default function MySkills(){
                     <h2>My Skills</h2>
                     <div className="col-12 col-lg-4 my-2">
                         <div className="card">
-                            <img src="..." className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5>Front End</h5>
                                 <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -15,7 +14,6 @@ export default function MySkills(){
                     </div>
                     <div className="col-12 col-lg-4 my-2">
                         <div className="card">
-                            <img src="..." className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5>Back End</h5>
                                 <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -24,9 +22,8 @@ export default function MySkills(){
                     </div>
                     <div className="col-12 col-lg-4 my-2">
                         <div className="card">
-                            <img src="..." className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5>Design</h5>
+                                <h5>Wordpress</h5>
                                 <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
