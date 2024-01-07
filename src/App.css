@@ -38,9 +38,6 @@ h5 {
 }
 
 .sub-header {
-
-
-
   letter-spacing: .075rem;
   text-transform: lowercase;
 }
@@ -54,6 +51,7 @@ h5 {
 p {
   font-size: 1rem;
   font-weight: 400;
+  letter-spacing: .025rem;
 }
 
 ul {
@@ -63,6 +61,47 @@ ul {
 
 li {
   list-style-type: none;
+  letter-spacing: .025rem;
+}
+
+a {
+  color: black;
+
+}
+
+
+/* Icons */
+
+.icon {
+  width: 23px;
+  height: 23px;
+}
+
+.icon:hover path{
+  fill: var(--pink);
+}
+
+.icon-footer:hover path{
+  fill: var(--white);
+}
+
+.material-symbols-outlined,
+.material-symbols-outlined-footer {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24;
+  font-size: 27px;
+  vertical-align: middle;
+}
+
+.material-symbols-outlined:hover{
+  color: var(--pink);
+}
+
+.white-outline:hover{
+  color: var(--white);
 }
 
 /* Navbar Section */
@@ -73,6 +112,15 @@ li {
   font-size: 1rem;
   letter-spacing: .1rem;
   text-transform: lowercase;
+}
+
+.nav-link {
+  color: var(--pink);
+  font-size: 1.2;
+}
+
+.nav-link:hover {
+  color: lightgray;
 }
 
 .nav-link-pointer {
