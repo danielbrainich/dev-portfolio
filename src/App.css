@@ -1,36 +1,54 @@
 /* Colors */
 
 :root {
-  --primary: #5e3bee;
-  --heading-color: #282938;
-  --bg-shade: #f5fcff;
-  --darkblue: #1c1e53;
-  --black: #000000;
-  --white: #ffffff;
+  --pink: #F78888;
+  --blue: #5DA2D5;
+  --light-blue: #90CCF4;
+  --yellow: #F3D250;
+  --white: #ECECEC;
 }
 
 /* Text */
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: var(--white);
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 4.75rem;
+  letter-spacing: .15rem;
 }
 
 h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 400;
   line-height: 1.75;
+  letter-spacing: .1rem;
+  text-transform: lowercase;
 }
 
-.smaller-h2 {
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 2;
+h5 {
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  text-transform: lowercase;
+}
+
+.sub-header {
+
+
+
+  letter-spacing: .075rem;
+  text-transform: lowercase;
+}
+
+.form-label {
+  font-weight: 400;
+  letter-spacing: .05rem;
+  text-transform: lowercase;
 }
 
 p {
@@ -38,7 +56,24 @@ p {
   font-weight: 400;
 }
 
+ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 /* Navbar Section */
+
+#navbar {
+  background-color: var(--white);
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  text-transform: lowercase;
+}
 
 .nav-link-pointer {
   cursor: pointer;
@@ -48,38 +83,18 @@ p {
 
 #hero-section {
   min-height: 100vh;
-  background: var(--bg-shade);
+  background-color: var(--white);
 }
 
 .profile-pic {
   max-width:450px;
 }
 
-/* My Skills Section */
-
-#my-skills {
-  min-height: 100vh;
-}
-
-.card {
-  min-height: 12rem;
-  border: none;
-  background: var(--bg-shade);
-}
-
-.card:hover {
-  border-bottom: 4px solid var(--primary);
-}
-
-.card:hover p {
-  color: var(--darkblue);
-}
-
 /* About Me Section */
 
 #about-me {
   min-height: 100vh;
-  background: var(--bg-shade);
+  background-color: var(--pink);
 }
 
 
@@ -87,17 +102,24 @@ p {
 
 #my-projects {
   min-height: 100vh;
+  background-color: var(--white);
+}
+
+#my-projects .card {
+  border: none;
+  background: var(--white);
 }
 
 /* Contact Me Section */
 
 #contact-me {
   min-height: 90vh;
-  background: var(--bg-shade);
+  background-color: var(--pink);
 }
 
 /* Footer Section */
 
 #footer {
-  height: 10vh;;
+  height: 10vh;
+  background-color: var(--pink);
 }

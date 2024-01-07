@@ -1,5 +1,5 @@
 export default function Navbar() {
-  
+
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -15,12 +15,6 @@ export default function Navbar() {
             <div className="col">
               <nav className="navbar navbar-expand-lg pt-4 pb-4 sticky-top">
                 <div className="container">
-                  <span
-                    className="nav-link px-4 nav-link-pointer"
-                    onClick={() => scrollToSection("home")}
-                  >
-                    &lt;db&gt;
-                  </span>
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -40,17 +34,9 @@ export default function Navbar() {
                       <li className="nav-item">
                         <span
                     className="nav-link px-4 nav-link-pointer"
-                          onClick={() => scrollToSection("my-skills")}
-                        >
-                          My Skills
-                        </span>
-                      </li>
-                      <li className="nav-item">
-                        <span
-                    className="nav-link px-4 nav-link-pointer"
                           onClick={() => scrollToSection("about-me")}
                         >
-                          About Me
+                          ABOUT
                         </span>
                       </li>
                       <li className="nav-item">
@@ -58,7 +44,7 @@ export default function Navbar() {
                     className="nav-link px-4 nav-link-pointer"
                           onClick={() => scrollToSection("my-projects")}
                         >
-                          My Projects
+                          PROJECTS
                         </span>
                       </li>
                       <li className="nav-item">
@@ -66,7 +52,7 @@ export default function Navbar() {
                     className="nav-link px-4 nav-link-pointer"
                           onClick={() => scrollToSection("contact-me")}
                         >
-                          Contact Me
+                          CONTACT
                         </span>
                       </li>
                     </ul>

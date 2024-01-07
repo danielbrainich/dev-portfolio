@@ -4,10 +4,9 @@ export default function HeroSection() {
             <div className="container d-flex flex-column align-items-between justify-content-center">
                 <div className="row d-flex p-3">
                     <div className="col-lg-6 d-flex flex-column justify-content-center">
-                        <h2 className="smaller-h2">Hi, I'm</h2>
                         <h1>Daniel Brainich</h1>
-                        <h2>Fullstack Developer</h2>
-                        <p>I'm passionate about turning ideas into experiences through code.</p>
+                        <h2>Full-stack Developer</h2>
+                        <p className="sub-header">passionate about coding ideas into experiences</p>
                         <div className="pt-1">
                             <a className="pe-2" href="https://www.danielbrainich.com"><img src="./img/homepage.png" width="21" height="21" alt="Homepage icon" /></a>
                             <a className="p-2" href="mailto: danielbrainich@gmail.com"><img src="./img/email.png" width="21" height="21" alt="Email icon" /></a>
