@@ -33,47 +33,51 @@ export default function ContactMe() {
         <section className="d-flex" id="contact-me">
             <div className="container d-flex flex-column align-items-between justify-content-center">
                 <div className="row d-flex p-3">
-                    <div className="col-6">
+                    <div className="col-xs-12 col-lg-6 mb-4">
                         <h2>Contact Me</h2>
                     </div>
-                    <div className="col-6">
-                        <div className="contact-form">
-                            <form onSubmit={sendEmail}>
-                                <div className="mb-3">
-                                    <label htmlFor="user_name" className="form-label">name</label>
-                                    <input
-                                        type="text"
-                                        className="form-control"
-                                        id="user_name"
-                                        name="user_name"
-                                        value={formData.user_name}
-                                        onChange={handleChange}
-                                    />
+                    <div className="col-xs-12 col-md-6">
+                        <div className="card p-5">
+                            <div className="card-body">
+                                <div className="contact-form">
+                                    <form onSubmit={sendEmail}>
+                                        <div className="mb-3">
+                                            <label htmlFor="user_name" className="form-label">name</label>
+                                            <input
+                                                type="text"
+                                                className="form-control"
+                                                id="user_name"
+                                                name="user_name"
+                                                value={formData.user_name}
+                                                onChange={handleChange}
+                                            />
+                                        </div>
+                                        <div className="mb-3">
+                                            <label htmlFor="user_email" className="form-label">email</label>
+                                            <input
+                                                type="email"
+                                                className="form-control"
+                                                id="user_email"
+                                                name="user_email"
+                                                value={formData.user_email}
+                                                onChange={handleChange}
+                                            />
+                                        </div>
+                                        <div className="mb-3">
+                                            <label htmlFor="message" className="form-label">message</label>
+                                            <textarea
+                                                className="form-control"
+                                                id="message"
+                                                name="message"
+                                                rows="4"
+                                                value={formData.message}
+                                                onChange={handleChange}
+                                            />
+                                        </div>
+                                        <button type="submit" className="btn btn-secondary">Send</button>
+                                    </form>
                                 </div>
-                                <div className="mb-3">
-                                    <label htmlFor="user_email" className="form-label">email</label>
-                                    <input
-                                        type="email"
-                                        className="form-control"
-                                        id="user_email"
-                                        name="user_email"
-                                        value={formData.user_email}
-                                        onChange={handleChange}
-                                    />
-                                </div>
-                                <div className="mb-3">
-                                    <label htmlFor="message" className="form-label">message</label>
-                                    <textarea
-                                        className="form-control"
-                                        id="message"
-                                        name="message"
-                                        rows="4"
-                                        value={formData.message}
-                                        onChange={handleChange}
-                                    />
-                                </div>
-                                <button type="submit" className="btn btn-secondary">Send</button>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>

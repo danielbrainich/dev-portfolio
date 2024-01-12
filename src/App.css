@@ -1,11 +1,13 @@
 /* Colors */
 
 :root {
-  --pink: #F78888;
+  --orange: #F8A964;
+  --light-orange: #F9BA83;
   --blue: #5DA2D5;
   --light-blue: #90CCF4;
   --yellow: #F3D250;
-  --white: #ECECEC;
+  --white: white;
+  ;
 }
 
 /* Text */
@@ -27,25 +29,21 @@ h2 {
   font-weight: 400;
   line-height: 1.75;
   letter-spacing: .1rem;
-  text-transform: lowercase;
 }
 
 h5 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
   letter-spacing: .1rem;
-  text-transform: lowercase;
 }
 
 .sub-header {
   letter-spacing: .075rem;
-  text-transform: lowercase;
 }
 
 .form-label {
   font-weight: 400;
   letter-spacing: .05rem;
-  text-transform: lowercase;
 }
 
 p {
@@ -78,7 +76,7 @@ a {
 }
 
 .icon:hover path{
-  fill: var(--pink);
+  fill: var(--orange);
 }
 
 .icon-footer:hover path{
@@ -97,7 +95,7 @@ a {
 }
 
 .material-symbols-outlined:hover{
-  color: var(--pink);
+  color: var(--orange);
 }
 
 .white-outline:hover{
@@ -120,7 +118,7 @@ a {
 }
 
 .nav-link:hover {
-  color: lightgray;
+  color: var(--orange);
 }
 
 .nav-link-pointer {
@@ -142,9 +140,19 @@ a {
 
 #about-me {
   min-height: 100vh;
-  background-color: var(--pink);
+  background-color: var(--orange);
 }
 
+#about-me .card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: var(--light-orange);
+}
+
+#about-me .card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
 
 /* My Projects Section */
 
@@ -154,20 +162,37 @@ a {
 }
 
 #my-projects .card {
-  border: none;
-  background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background: white;
+}
+
+#my-projects .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 
 /* Contact Me Section */
 
 #contact-me {
   min-height: 90vh;
-  background-color: var(--pink);
+  background-color: var(--orange);
+}
+
+#contact-me .card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: var(--light-orange);
+}
+
+#contact-me .card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 
 /* Footer Section */
 
 #footer {
   height: 10vh;
-  background-color: var(--pink);
+  background-color: var(--orange);
 }
