@@ -7,7 +7,7 @@ export default function HeroSection() {
                     <div className="col-lg-6 d-flex flex-column justify-content-center">
                         <h1>Daniel Brainich</h1>
                         <h2>Full-stack Developer</h2>
-                        <p className="sub-header">passionate about coding ideas into experiences</p>
+                        <p className="sub-header">Passionate about coding ideas into experiences</p>
                         <div className="pt-1">
                             <a className="pe-2" href="https://www.danielbrainich.com">
                                 <span className="material-symbols-outlined">home</span></a>

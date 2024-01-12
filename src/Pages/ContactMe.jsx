@@ -33,16 +33,16 @@ export default function ContactMe() {
         <section className="d-flex" id="contact-me">
             <div className="container d-flex flex-column align-items-between justify-content-center">
                 <div className="row d-flex p-3">
-                    <div className="col-xs-12 col-lg-6 mb-4">
-                        <h2>Contact Me</h2>
+                    <div className="col-xs-12 col-lg-3 mb-4">
+                        <h3 className="mb-4">Contact Me</h3>
                     </div>
-                    <div className="col-xs-12 col-md-6">
+                    <div className="col-xs-12 col-lg-8 offset-lg-1">
                         <div className="card p-5">
                             <div className="card-body">
                                 <div className="contact-form">
                                     <form onSubmit={sendEmail}>
                                         <div className="mb-3">
-                                            <label htmlFor="user_name" className="form-label">name</label>
+                                            <label htmlFor="user_name" className="form-label">Name</label>
                                             <input
                                                 type="text"
                                                 className="form-control"
@@ -53,7 +53,7 @@ export default function ContactMe() {
                                             />
                                         </div>
                                         <div className="mb-3">
-                                            <label htmlFor="user_email" className="form-label">email</label>
+                                            <label htmlFor="user_email" className="form-label">Email</label>
                                             <input
                                                 type="email"
                                                 className="form-control"
@@ -64,17 +64,17 @@ export default function ContactMe() {
                                             />
                                         </div>
                                         <div className="mb-3">
-                                            <label htmlFor="message" className="form-label">message</label>
+                                            <label htmlFor="message" className="form-label">Message</label>
                                             <textarea
                                                 className="form-control"
                                                 id="message"
                                                 name="message"
-                                                rows="4"
+                                                rows="8"
                                                 value={formData.message}
                                                 onChange={handleChange}
                                             />
                                         </div>
-                                        <button type="submit" className="btn btn-secondary">Send</button>
+                                        <button type="submit" className="btn btn-dark">Send</button>
                                     </form>
                                 </div>
                             </div>

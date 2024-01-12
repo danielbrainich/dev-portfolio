@@ -3,7 +3,7 @@ export default function MyProjects() {
         <section className="d-flex" id="my-projects">
             <div className="container d-flex flex-column align-items-between justify-content-center">
                 <div className="row d-flex p-3 mt-5">
-                    <h2 className="ms-4 mt-5">My Projects</h2>
+                    <h3 className="mt-5 mb-4">My Projects</h3>
                     <div className="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-4 my-2">
                         <div className="card mb-4">
                             <div className="row g-0">
@@ -13,11 +13,11 @@ export default function MyProjects() {
                                     <p className="card-text small">A Django-powered full-stack web application that allows runners to manage and analyze their race data. RaceTracker
                                     demonstrates my ability to build functional and intuitive full-stack web applications with user-friendly and responsive designs.</p>
                                     <div>
-                                        <span className="badge border rounded-pill text-primary me-1">Python</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">Django</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">HTML</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">CSS</span>
-                                        <span className="badge border rounded-pill text-primary ms-1">Bootstrap</span>
+                                        <span className="badge bg-dark text-white me-2">Python</span>
+                                        <span className="badge bg-dark text-white me-2">Django</span>
+                                        <span className="badge bg-dark text-white me-2">HTML</span>
+                                        <span className="badge bg-dark text-white me-2">CSS</span>
+                                        <span className="badge bg-dark text-white me-2">Bootstrap</span>
                                     </div>
                                 </div>
                             </div>
@@ -33,11 +33,11 @@ export default function MyProjects() {
                                     humorous tech-themed insults from the television show "Silicon Valley" to multiple endpoints, where users are able to request content by season, episode,
                                     and character.</p>
                                     <div>
-                                        <span className="badge border rounded-pill text-primary me-1">Python</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">FastAPI</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">HTML</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">CSS</span>
-                                        <span className="badge border rounded-pill text-primary ms-1">Bootstrap</span>
+                                        <span className="badge bg-dark text-white me-2">Python</span>
+                                        <span className="badge bg-dark text-white me-2">FastAPI</span>
+                                        <span className="badge bg-dark text-white me-2">HTML</span>
+                                        <span className="badge bg-dark text-white me-2">CSS</span>
+                                        <span className="badge bg-dark text-white me-2">Bootstrap</span>
                                     </div>
                                 </div>
                             </div>
@@ -52,11 +52,11 @@ export default function MyProjects() {
                                     <p className="card-text small">A React single-page application that showcases my proficiency in modern web development and SPA architecture. I applied
                                     Bootstrap for responsive design and React Router for intuitive navigation for a seamless user experience.</p>
                                     <div>
-                                        <span className="badge border rounded-pill text-primary mx-1">JavaScript</span>
-                                        <span className="badge border rounded-pill text-primary me-1">React</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">JSX</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">CSS</span>
-                                        <span className="badge border rounded-pill text-primary ms-1">Bootstrap</span>
+                                        <span className="badge bg-dark text-white me-2">JavaScript</span>
+                                        <span className="badge bg-dark text-white me-2">React</span>
+                                        <span className="badge bg-dark text-white me-2">JSX</span>
+                                        <span className="badge bg-dark text-white me-2">CSS</span>
+                                        <span className="badge bg-dark text-white me-2">Bootstrap</span>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ export default function MyProjects() {
                                     and purchase the coffee roaster's products. By prioritizing user experience and implementing e-commerce features seamlessly, the Finca Fox Coffee store
                                     not only provides a convenient platform for transactions but also enhances the overall digital presence of the brand.</p>
                                     <div>
-                                        <span className="badge border rounded-pill text-primary mx-1">Wordpress</span>
+                                        <span className="badge bg-dark text-white me-2">Wordpress</span>
                                     </div>
                                 </div>
                             </div>
@@ -88,13 +88,13 @@ export default function MyProjects() {
                                     campaign and legislative information aggregated from multiple online sources. MeetMyRep integrates data from multiple APIs using effective data
                                     parsing and React state management to present information in a dynamic and engaging interface.</p>
                                     <div>
-                                        <span className="badge border rounded-pill text-primary me-1">Python</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">FastAPI</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">React</span>
-                                        <span className="badge border rounded-pill text-primary mx-1">JavaScript</span>
-                                        <span className="badge border rounded-pill text-primary ms-1">Bootstrap</span>
-                                        <span className="badge border rounded-pill text-primary ms-1">HTML</span>
-                                        <span className="badge border rounded-pill text-primary ms-1">CSS</span>
+                                        <span className="badge bg-dark text-white me-2">Python</span>
+                                        <span className="badge bg-dark text-white me-2">FastAPI</span>
+                                        <span className="badge bg-dark text-white me-2">React</span>
+                                        <span className="badge bg-dark text-white me-2">JavaScript</span>
+                                        <span className="badge bg-dark text-white me-2">Bootstrap</span>
+                                        <span className=" badge bg-dark text-white me-2">HTML</span>
+                                        <span className="badge bg-dark text-white me-2">CSS</span>
                                     </div>
                                 </div>
                             </div>
