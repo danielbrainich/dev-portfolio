@@ -18,7 +18,12 @@ export default function ContactMe() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.send('service_sudgfhq', 'template_j3oj8rf', formData, 'LwUAU6mNe-aioatAP')
+        emailjs.send(
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            formData,
+            process.env.REACT_APP_EMAILJS_USER_ID
+          )
             .then((result) => {
                 console.log(result.text);
                 // add a success message

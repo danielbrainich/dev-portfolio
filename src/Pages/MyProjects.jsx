@@ -50,7 +50,7 @@ export default function MyProjects() {
                                 <div className="card-body">
                                     <h5 className="card-title">Dev Portfolio</h5>
                                     <p className="card-text small">A React single-page application that showcases my proficiency in modern web development and SPA architecture. I applied
-                                    Bootstrap for responsive design and React Router for intuitive navigation for a seamless user experience.</p>
+                                    Bootstrap for responsive design and crafted a minimalist theme for a clean and user-friendly interface.</p>
                                     <div>
                                         <span className="badge bg-dark text-white me-2">JavaScript</span>
                                         <span className="badge bg-dark text-white me-2">React</span>
@@ -72,7 +72,7 @@ export default function MyProjects() {
                                     and purchase the coffee roaster's products. By prioritizing user experience and implementing e-commerce features seamlessly, the Finca Fox Coffee store
                                     not only provides a convenient platform for transactions but also enhances the overall digital presence of the brand.</p>
                                     <div>
-                                        <span className="badge bg-dark text-white me-2">Wordpress</span>
+                                        <span className="badge bg-dark text-white me-2">WordPress</span>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ export default function MyProjects() {
                                     <h5 className="card-title">MeetMyRep</h5>
                                     <p className="card-text small">A React application that enables users to search their House of Representatives member by address and access
                                     campaign and legislative information aggregated from multiple online sources. MeetMyRep integrates data from multiple APIs using effective data
-                                    parsing and React state management to present information in a dynamic and engaging interface.</p>
+                                    parsing and React state management and hooks to present information in a dynamic and engaging interface.</p>
                                     <div>
                                         <span className="badge bg-dark text-white me-2">Python</span>
                                         <span className="badge bg-dark text-white me-2">FastAPI</span>

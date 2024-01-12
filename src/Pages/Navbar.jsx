@@ -55,6 +55,10 @@ export default function Navbar() {
                           Contact
                         </span>
                       </li>
+                      <li className="nav-item">
+                      <button type="submit" className="btn btn-nav mx-4 px-4">Resume</button>
+                      </li>
+
                     </ul>
                   </div>
                 </div>

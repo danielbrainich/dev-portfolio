@@ -10,7 +10,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--white);
+  background-color: var(--orange);
 }
 
 h1 {
@@ -87,7 +87,6 @@ a {
 
 }
 
-
 /* Icons */
 
 .icon {
@@ -127,10 +126,14 @@ a {
 #navbar {
   background-color: var(--orange);
   font-weight: 500;
-  font-size: 1rem;
   letter-spacing: .1rem;
   font-family: 'Roboto Slab', serif;
   font-size: 1.15rem;
+}
+
+.nav-link {
+  color: black;
+  font-size: 1rem;
 }
 
 .nav-link:hover {
@@ -139,6 +142,22 @@ a {
 
 .nav-link-pointer {
   cursor: pointer;
+}
+
+.btn-nav {
+  color: black;
+  border-radius: 0;
+  background: white;
+  border:  solid black 2px;
+  font-weight: 500;
+}
+
+.btn-nav:hover {
+  color: black;
+  border-radius: 0;
+  background: white;
+  border:  solid black 2px;
+  font-weight: 500;
 }
 
 /* Hero Section */

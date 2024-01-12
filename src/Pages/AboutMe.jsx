@@ -48,7 +48,6 @@ export default function AboutMe() {
                                 <ul className="list-unstyled d-flex flex-column flex-md-row">
                                     <li className="me-md-3 mb-2 mb-md-0">React</li>
                                     <li className="me-md-3 mb-2 mb-md-0">Bootstrap</li>
-                                    <li className="me-md-3 mb-2 mb-md-0">Tailwind</li>
                                 </ul>
                             </div>
                         </div>
