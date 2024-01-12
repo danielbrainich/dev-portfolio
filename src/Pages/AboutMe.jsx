@@ -5,11 +5,11 @@ export default function AboutMe() {
                 <div className="row d-flex p-3">
                     <h3 className="section-title mb-4">About Me</h3>
                     <p className="mb-2">
-                        I'm a Hack Reactor bootcamp graduate and a full-stack software engineer. At Hack Reactor, I fine-tuned my programming skills and built some fantastic full-stack projects, preparing myself for an exciting career in software development.
+                        I'm a Hack Reactor bootcamp graduate and a full-stack software engineer. At Hack Reactor, I fine-tuned my programming skills and built some fantastic full-stack projects, preparing myself for a successful career in software development.
                         But my coding journey began before than that.
                     </p>
                     <p className="mb-2">
-                        While completing an MA in International Affairs, used SQL to analyze and manipulate large datasets related to global development issues. This is
+                        While completing an MA in International Affairs, I used SQL to analyze and manipulate large datasets related to global development issues. This is
                         where I first discovered that coding can be powerful, impactful, and also fun! Before devoting myself full-time to coding, I first completed my Master's degree and then held a number of management roles in the international development and
                         hospitality industries.
                     </p>
