@@ -36,13 +36,13 @@ export default function ContactMe() {
 
     return(
         <section className="d-flex" id="contact-me">
-            <div className="container d-flex flex-column align-items-between justify-content-center">
+            <div className="container d-flex flex-column align-items-between justify-content-center my-5">
                 <div className="row d-flex p-3">
-                    <div className="col-xs-12 col-lg-3 mb-4">
-                        <h3 className="mb-4">Contact Me</h3>
+                    <div className="col-xs-12 col-lg-3">
+                        <h3 className="mb-5">Contact Me</h3>
                     </div>
                     <div className="col-xs-12 col-lg-8 offset-lg-1">
-                        <div className="card p-5">
+                        <div className="card px-md-5 py-5">
                             <div className="card-body">
                                 <div className="contact-form">
                                     <form onSubmit={sendEmail}>
