@@ -20,7 +20,7 @@ export default function HeroSection() {
                             </a>
                         </div>
                         <li className="nav-item">
-                            <a href="URL_TO_RESUME" className="btn btn-sm btn-nav px-3 flex-grow-1" role="button">Download resume</a>
+                            <a href="../daniel-brainich-resume.pdf" className="btn btn-sm btn-hero px-3 flex-grow-1" role="button" target="_blank">View resume</a>
                         </li>
                     </div>
                     <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">

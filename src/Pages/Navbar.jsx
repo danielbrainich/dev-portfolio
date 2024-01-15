@@ -30,10 +30,10 @@ export default function Navbar() {
                     className="collapse navbar-collapse"
                     id="navbarSupportedContent"
                   >
-                    <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <ul className="navbar-nav mb-2 mb-lg-0">
                       <li className="nav-item">
                         <span
-                    className="nav-link px-4 nav-link-pointer"
+                    className="nav-link pe-4 nav-link-pointer"
                           onClick={() => scrollToSection("about-me")}
                         >
                           About
