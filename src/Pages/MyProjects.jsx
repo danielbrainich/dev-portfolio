@@ -30,7 +30,7 @@ export default function MyProjects() {
                     <div className="col-12 col-md-8 col-lg-6 col-xl-4 mb-4">
                         <div className="card h-100">
                             <div className="row g-0">
-                                <img src="../img/screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
+                                <img src="../img/insults-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
                                         <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://www.siliconvalleyinsults.com"  role="button" target="_blank" rel="noopener noreferrer">Visit deployed app</a>
@@ -54,7 +54,7 @@ export default function MyProjects() {
                     <div className="col-12 col-md-8 col-lg-6 col-xl-4 mb-4">
                         <div className="card h-100">
                             <div className="row g-0">
-                                <img src="../img/screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
+                                <img src="../img/portfolio-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
                                         <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="#">Visit deployed app</a>
