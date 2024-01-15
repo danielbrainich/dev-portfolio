@@ -38,9 +38,9 @@ export default function ContactMe() {
 
     return(
         <section className="d-flex" id="contact-me">
-            <div className="custom-toast">
+            <div>
                 {showToast && (
-                    <div className="toast show position-fixed top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div className="custom-toast toast show position-fixed top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
                         <div className="toast-header">
                             <strong className="me-auto">Success</strong>
                             <button type="button" className="btn-close" onClick={() => setShowToast(false)} aria-label="Close"></button>
