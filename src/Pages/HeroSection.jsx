@@ -2,9 +2,9 @@ export default function HeroSection() {
 
     return (
         <section className="d-flex" id="hero-section">
-            <div className="container d-flex flex-column align-items-between justify-content-center">
+            <div className="container d-flex flex-column justify-content-center align-items-center">
                 <div className="row d-flex p-3">
-                    <div className="col-lg-6 d-flex flex-column justify-content-center">
+                    <div className="col-lg-6 d-flex flex-column justify-content-center mb-2">
                         <h1>Daniel Brainich</h1>
                         <h2>Full-stack Developer</h2>
                         <p className="sub-header">Passionate about coding ideas into experiences</p>
@@ -23,8 +23,8 @@ export default function HeroSection() {
                             <a href="../daniel-brainich-resume.pdf" className="btn btn-sm btn-hero px-3 flex-grow-1" role="button" target="_blank">View resume</a>
                         </li>
                     </div>
-                    <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-                        <img className="profile-pic" src="./img/profile-pic.png" alt="Profile pic" />
+                    <div className="mt-2 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                        <img className="img-fluid profile-pic" src="./img/profile-pic.png" alt="Profile pic" />
                     </div>
                 </div>
             </div>

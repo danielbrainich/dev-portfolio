@@ -11,7 +11,6 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--orange);
-  overflow-x: hidden;
 }
 
 h1 {
@@ -133,10 +132,6 @@ a {
   background-color: var(--white);
 }
 
-.profile-pic {
-  max-width:450px;
-}
-
 .btn-hero {
   color: black;
   border-radius: 0;
@@ -150,6 +145,12 @@ a {
   border-radius: 0;
   border:  solid black 2px;
   box-shadow: 5px 5px 0 var(--orange);
+}
+
+@media (min-width: 768px) {
+  .profile-pic {
+    max-width: 450px;
+  }
 }
 
 /* About Me Section */
