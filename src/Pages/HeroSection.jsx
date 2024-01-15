@@ -3,7 +3,7 @@ export default function HeroSection() {
     return (
         <section className="d-flex" id="hero-section">
             <div className="container d-flex flex-column justify-content-center align-items-center">
-                <div className="row d-flex p-3">
+                <div className="row d-flex py-3">
                     <div className="col-lg-6 d-flex flex-column justify-content-center mb-2">
                         <h1>Daniel Brainich</h1>
                         <h2>Full-stack Developer</h2>

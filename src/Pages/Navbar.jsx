@@ -41,7 +41,7 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <span
-                    className="nav-link px-4 nav-link-pointer"
+                    className="nav-link pe-4 nav-link-pointer"
                           onClick={() => scrollToSection("my-projects")}
                         >
                           Projects
@@ -49,7 +49,7 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <span
-                    className="nav-link px-4 nav-link-pointer"
+                    className="nav-link pe-4 nav-link-pointer"
                           onClick={() => scrollToSection("contact-me")}
                         >
                           Contact
