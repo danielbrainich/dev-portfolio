@@ -7,11 +7,11 @@ export default function MyProjects() {
                     <div className="col-12 col-md-8 col-lg-6 col-xl-4 mb-4">
                         <div className="card h-100">
                             <div className="row g-0">
-                                <img src="../img/screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
+                                <img src="../img/race-tracker-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                 <div className="d-flex justify-content-center mb-4">
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://race-tracker-e0e5cf38a81d.herokuapp.com/races/"  role="button" target="_blank" rel="noopener noreferrer">Visit deployed app</a>
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/race-tracker" role="button" target="_blank" rel="noopener noreferrer">Visit codebase</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://race-tracker-e0e5cf38a81d.herokuapp.com/"  role="button" target="_blank" rel="noopener noreferrer">Deployed app</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/race-tracker" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
                                     </div>
                                     <h5 className="card-title">Race Tracker</h5>
                                     <p className="card-text small">A Django-powered full-stack web application that allows runners to manage and analyze their race data. RaceTracker
@@ -33,8 +33,8 @@ export default function MyProjects() {
                                 <img src="../img/insults-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://www.siliconvalleyinsults.com"  role="button" target="_blank" rel="noopener noreferrer">Visit deployed app</a>
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/silicon-valley-insults" role="button" target="_blank" rel="noopener noreferrer">Visit codebase</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://www.siliconvalleyinsults.com"  role="button" target="_blank" rel="noopener noreferrer">Deployed app</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/silicon-valley-insults" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
                                     </div>
                                     <h5 className="card-title">Silicon Valley Insults</h5>
                                     <p className="card-text small">A public API with meticulous documentation that adheres to RESTful principles. This FastAPI-powered service delivers up
@@ -58,7 +58,7 @@ export default function MyProjects() {
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
                                         <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="#">Visit deployed app</a>
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/dev-portfolio" role="button" target="_blank" rel="noopener noreferrer">Visit codebase</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/dev-portfolio" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
                                     </div>
                                     <h5 className="card-title">Dev Portfolio</h5>
                                     <p className="card-text small">A React single-page application that showcases my proficiency in modern web development and SPA architecture. I applied
@@ -101,7 +101,7 @@ export default function MyProjects() {
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
                                         {/* <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href=""  role="button" target="_blank" rel="noopener noreferrer">Visit deployed app</a> */}
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/rep-report" role="button" target="_blank" rel="noopener noreferrer">Visit codebase</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/rep-report" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
                                     </div>
                                     <h5 className="card-title">Rep Report</h5>
                                     <p className="card-text small">A React application that enables users to search their House of Representatives member by address and access
