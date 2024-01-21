@@ -57,7 +57,7 @@ export default function MyProjects() {
                                 <img src="../img/portfolio-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="#">Visit deployed app</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="#">Deployed app</a>
                                         <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/dev-portfolio" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
                                     </div>
                                     <h5 className="card-title">Dev Portfolio</h5>
