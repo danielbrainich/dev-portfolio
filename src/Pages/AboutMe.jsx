@@ -5,16 +5,16 @@ export default function AboutMe() {
                 <div className="row d-flex p-3">
                     <h3 className="section-title mb-5">About Me</h3>
                     <p className="mb-2">
-                        I'm a Hack Reactor bootcamp graduate and a full-stack software engineer. At Hack Reactor, I fine-tuned my programming skills and built some fantastic full-stack projects, preparing myself for a successful career in software development.
-                        But my coding journey began before than that.
+                    I'm a recent software engineering bootcamp graduate and a full-stack software engineer. Over the past year, I've honed my programming skills and built some
+                    awesome full-stack projects, preparing myself for a successful career in software development. But my coding journey began before than that.
                     </p>
                     <p className="mb-2">
-                        While completing an MA in International Affairs, I used SQL to analyze and manipulate large datasets related to global development issues. This is
-                        where I first discovered that coding can be powerful, impactful, and also fun! Before devoting myself full-time to coding, I first completed my Master's degree and then held a number of management roles in the international development and
-                        hospitality industries.
+                    While completing an MA in International Affairs, I used SQL to analyze and manipulate large datasets related to global development issues. This is where I
+                    first discovered that coding can be powerful, impactful, and also fun!
                     </p>
                     <p className="mb-5">
-                        And now, I'm thrilled to bring my unique blend of skills and perspectives to the world of software engineering!
+                    Before devoting myself full-time to coding, I completed my MA and then held a number of management roles in the international development and hospitality
+                    industries. And now, I'm thrilled to bring my unique blend of skills and perspectives to the world of software engineering!
                     </p>
                     <div className="col-12 col-md-6 col-lg-4 my-2">
                         <div className="card p-2">
