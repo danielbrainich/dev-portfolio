@@ -33,10 +33,12 @@ export default function AboutMe() {
                     <div className="col-12 col-md-6 col-lg-4 my-2">
                     <div className="card p-2">
                             <div className="card-body">
-                                <h4>Backend Frameworks</h4>
+                                <h4>Backend</h4>
                                 <ul className="list-unstyled d-flex flex-column flex-md-row flex-wrap">
                                     <li className="me-md-3 mb-2 mb-md-0">Django</li>
                                     <li className="me-md-3 mb-2 mb-md-0">FastAPI</li>
+                                    <li className="me-md-3 mb-2 mb-md-0">PostgreSQL</li>
+                                    <li className="me-md-3 mb-2 mb-md-0">MongoDB</li>
                                 </ul>
                             </div>
                         </div>
@@ -44,7 +46,7 @@ export default function AboutMe() {
                     <div className="col-12 col-md-6 col-lg-4 my-2">
                     <div className="card p-2">
                             <div className="card-body">
-                            <h4>Frontend Framewords</h4>
+                            <h4>Frontend</h4>
                             <ul className="list-unstyled d-flex flex-column flex-md-row flex-wrap">
                                     <li className="me-md-3 mb-2 mb-md-0">React</li>
                                     <li className="me-md-3 mb-2 mb-md-0">Bootstrap</li>
@@ -60,6 +62,7 @@ export default function AboutMe() {
                                     <li className="me-md-3 mb-2 mb-md-0">Docker</li>
                                     <li className="me-md-3 mb-2 mb-md-0">Heroku</li>
                                     <li className="me-md-3 mb-2 mb-md-0">Git</li>
+                                    <li className="me-md-3 mb-2 mb-md-0">CI/CD</li>
                                 </ul>
                             </div>
                         </div>
