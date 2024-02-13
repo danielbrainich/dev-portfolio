@@ -55,6 +55,15 @@ export default function Navbar() {
                           Contact
                         </span>
                       </li>
+                      <li className="nav-item">
+                        <a
+                        className="nav-link pe-4 nav-link-pointer"
+                        href="../daniel-brainich-resume.pdf"
+                        role="button"
+                        target="_blank"
+                        > Resumé
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>

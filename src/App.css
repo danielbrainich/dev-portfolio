@@ -1,24 +1,42 @@
+/* Page */
+
+body {
+  background-color: var(--dark-blue);
+}
+
 /* Colors */
 
 :root {
-  --orange: #F8A964;
-  --white: white;
+    --white: white;
+    --beige: #FEFCF5;
+    --grey: #706A61;
+    --dark-blue: #3B576D;
+    --orange: #E1854A;
+    --light-blue: #7BBCCF;
   ;
 }
 
 /* Text */
 
+@font-face {
+  font-family: 'sp-blunt-regular';
+  src: url('../public/sp-blunt-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--orange);
+  color: var(--grey);
 }
 
 h1 {
   font-size: 5rem;
-  font-weight: 700;
-  line-height: 4.75rem;
+  line-height: 4.5rem;
   letter-spacing: .15rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'sp-blunt-regular';
+  text-transform: uppercase;
+  color: var(--grey);
 }
 
 h2 {
@@ -26,50 +44,48 @@ h2 {
   font-weight: 400;
   line-height: 1.75;
   letter-spacing: .1rem;
+  font-family: 'sp-blunt-regular';
+  color: var(--orange);
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: .1rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'sp-blunt-regular';
+  text-transform: uppercase;
 }
-
 
 h4 {
   font-weight: 500;
   font-size: 1.1rem;
   letter-spacing: .1rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'sp-blunt-regular';
 }
 
 h5 {
   font-weight: 500;
   font-size: 1.1rem;
   letter-spacing: .1rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'sp-blunt-regular';
 }
 
 label {
   font-weight: 500;
   font-size: 0.9rem;
   letter-spacing: .1rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'sp-blunt-regular';
 }
 
 .sub-header {
   letter-spacing: .075rem;
 }
 
-.form-label {
-  font-weight: 400;
-  letter-spacing: .05rem;
-}
-
 p {
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: .025rem;
+  color: var(--grey);
 }
 
 ul {
@@ -94,31 +110,23 @@ a {
   height: 23px;
 }
 
-.icon:hover path{
-  fill: var(--orange);
-}
-
-.icon-footer:hover path{
-  fill: var(--white);
-}
-
 /* Navbar Section */
 
 #navbar {
-  background-color: var(--orange);
+  background-color: var(--dark-blue);
   font-weight: 500;
   letter-spacing: .1rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'sp-blunt-regular';
   font-size: 1.15rem;
 }
 
 .nav-link {
-  color: black;
+  color: var(--beige);
   font-size: 1rem;
 }
 
 .nav-link:hover {
-  color: var(--white);
+  color: var(--orange)
 }
 
 .nav-link-pointer {
@@ -134,17 +142,12 @@ a {
 
 .btn-hero {
   color: black;
-  border-radius: 0;
-  background: white;
-  border:  solid black 2px;
+  border-radius: 25px;
+  background: var(--orange);
+  border: 0px;
   font-weight: 500;
-  transition: box-shadow 0.3s ease;
-}
-
-.btn-hero:hover {
-  border-radius: 0;
-  border:  solid black 2px;
-  box-shadow: 5px 5px 0 var(--orange);
+  transition: background-color 0.3s ease;
+  padding: 10px 0 10px 0;
 }
 
 @media (min-width: 768px) {
@@ -157,75 +160,75 @@ a {
 
 #about-me {
   min-height: 100vh;
-  background-color: var(--orange);
+  background-color: var(--dark-blue);
 }
 
 #about-me .card {
-  border:  solid black 2px;
-  border-radius: 0;
+  border: none;
+  border-radius: 0px;
   transition: box-shadow 0.3s ease;
+  color: var(--grey);
 }
 
-#about-me .card:hover {
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+#about-me p {
+  color: var(--beige)
+}
+
+#about-me h3 {
+  color: var(--beige)
 }
 
 /* My Projects Section */
 
 #my-projects {
   min-height: 100vh;
-  background-color: var(--white);
+  background-color: var(--light-blue);
 }
 
 #my-projects .card {
-  border:  solid black 2px;
-  border-radius: 0;
-  transition: box-shadow 0.3s ease;
+  border: 0px;
+  border-radius: 0px;
+  background-color: var(--beige);
 }
 
-#my-projects .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+#my-projects p {
+  color: var(--dark-blue);
 }
 
 .badge {
   font-weight: 400;
-  border-radius: 3;
+  border-radius: 25px;
   padding: 0.4em 0.6em;
   font-size: 0.8em;
   margin-top: .25rem;
   margin-bottom: .25rem;
+  background-color: var(--orange);
+  color: var(--beige);
   }
 
 .btn-projects {
-  color: black;
-  border-radius: 0;
-  background: white;
-  border:  solid black 2px;
+  color: var(--white);
+  border-radius: 0px;
+  background: var(--dark-blue);
+  border: 0px;
   font-weight: 500;
-  transition: box-shadow 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .btn-projects:hover {
-  border-radius: 0;
-  border:  solid black 2px;
-  box-shadow: 5px 5px 0 var(--orange);
+  background-color: var(--light-blue);
 }
 
 /* Contact Me Section */
 
+.form-label {
+    font-family: "Roboto", sans-serif;
+    color: var(--grey);
+  }
+
 #contact-me {
   min-height: 90vh;
-  background-color: var(--orange);
-}
-
-#contact-me .card {
-  border: solid black 2px;
-  border-radius: 0;
-  transition: box-shadow 0.3s ease;
-}
-
-#contact-me .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  background-color: var(--beige);
 }
 
 .form-control:focus {
@@ -234,18 +237,19 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 
 .btn-contact-me {
-  color: black;
-  border-radius: 0;
-  background: white;
-  border:  solid black 2px;
+  color: var(--white);
+  border-radius: 0px;
+  background: var(--dark-blue);
+  border: 0px;
   font-weight: 500;
   transition: box-shadow 0.3s ease;
+  transition: background-color 0.3s ease;
+  min-width: 8rem;
 }
 
 .btn-contact-me:hover {
-  border-radius: 0;
-  border:  solid black 2px;
-  box-shadow: 5px 5px 0 var(--orange);
+  background-color: var(--light-blue);
+  color: var(--white);
 }
 
 .custom-toast {
@@ -256,9 +260,26 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
     font-weight: 500;
   }
 
+  .custom-input {
+    border-radius: 6px;
+    border: 2px solid darkgray;
+    background-color: white;
+    color: black;
+  }
+
+  .custom-input:focus {
+    border-color: orange;
+    outline: none;
+    box-shadow: none;
+  }
+
+  h3 {
+    color: var(--dark-blue);
+  }
+
 /* Footer Section */
 
 #footer {
   height: 10vh;
-  background-color: var(--orange);
+  background-color: var(--beige);
 }

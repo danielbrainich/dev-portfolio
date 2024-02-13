@@ -19,9 +19,6 @@ export default function HeroSection() {
                                 <img src="img/email.png" alt="mail icon" width="22px" />
                             </a>
                         </div>
-                        <li className="nav-item">
-                            <a href="../daniel-brainich-resume.pdf" className="btn btn-sm btn-hero px-3 flex-grow-1" role="button" target="_blank">View resume</a>
-                        </li>
                     </div>
                     <div className="mt-2 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                         <img className="img-fluid profile-pic" src="./img/profile-pic.png" alt="Profile pic" />

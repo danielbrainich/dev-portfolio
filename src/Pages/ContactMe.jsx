@@ -54,18 +54,16 @@ export default function ContactMe() {
             <div className="container d-flex flex-column align-items-between justify-content-center my-5">
                 <div className="row d-flex p-3">
                     <div className="col-xs-12 col-lg-3">
-                        <h3 className="mb-5">Contact Me</h3>
+                        <h3 className="mb-5">Contact</h3>
                     </div>
                     <div className="col-xs-12 col-lg-8 offset-lg-1">
-                        <div className="card px-md-5 py-5">
-                            <div className="card-body">
                                 <div className="contact-form">
                                     <form onSubmit={sendEmail}>
                                         <div className="mb-3">
                                             <label htmlFor="user_name" className="form-label">Name</label>
                                             <input
                                                 type="text"
-                                                className="form-control"
+                                                className="form-control custom-input"
                                                 id="user_name"
                                                 name="user_name"
                                                 value={formData.user_name}
@@ -76,7 +74,7 @@ export default function ContactMe() {
                                             <label htmlFor="user_email" className="form-label">Email</label>
                                             <input
                                                 type="email"
-                                                className="form-control"
+                                                className="form-control custom-input"
                                                 id="user_email"
                                                 name="user_email"
                                                 value={formData.user_email}
@@ -86,7 +84,7 @@ export default function ContactMe() {
                                         <div className="mb-3">
                                             <label htmlFor="message" className="form-label">Message</label>
                                             <textarea
-                                                className="form-control"
+                                                className="form-control custom-input"
                                                 id="message"
                                                 name="message"
                                                 rows="8"
@@ -97,8 +95,6 @@ export default function ContactMe() {
                                         <button type="submit" className="btn btn-contact-me">Send</button>
                                     </form>
                                 </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
