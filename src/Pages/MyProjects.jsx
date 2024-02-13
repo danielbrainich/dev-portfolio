@@ -7,6 +7,31 @@ export default function MyProjects() {
                     <div className="col-12 col-md-8 col-lg-6 col-xl-4 mb-4">
                         <div className="card h-100">
                             <div className="row g-0">
+                                <img src="../img/rep-radar-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
+                                <div className="card-body">
+                                    <div className="d-flex justify-content-center mb-4">
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://main--rep-radar.netlify.app/"  role="button" target="_blank" rel="noopener noreferrer">Deployed App</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/rep-radar" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
+                                    </div>
+                                    <h5 className="card-title">Rep Radar</h5>
+                                    <p className="card-text small">A fullstack React/FastAPI app that finds a user's member of Congress and serves up campaign and legislative information from multiple public APIs.
+                                    Rep Radar uses complex data parsing and React state management and hooks to present information in a dynamic and engaging interface. Server-side caching and concurrent API calls optimize performance.</p>
+                                    <div>
+                                        <span className="badge me-2">Python</span>
+                                        <span className="badge me-2">FastAPI</span>
+                                        <span className="badge me-2">React</span>
+                                        <span className="badge me-2">JavaScript</span>
+                                        <span className="badge me-2">Bootstrap</span>
+                                        <span className=" badge me-2">HTML</span>
+                                        <span className="badge me-2">CSS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-8 col-lg-6 col-xl-4 mb-4">
+                        <div className="card h-100">
+                            <div className="row g-0">
                                 <img src="../img/race-tracker-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                 <div className="d-flex justify-content-center mb-4">
@@ -69,31 +94,6 @@ export default function MyProjects() {
                                         <span className="badge me-2">JSX</span>
                                         <span className="badge me-2">CSS</span>
                                         <span className="badge me-2">Bootstrap</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-8 col-lg-6 col-xl-4 mb-4">
-                        <div className="card h-100">
-                            <div className="row g-0">
-                                <img src="../img/rep-radar-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
-                                <div className="card-body">
-                                    <div className="d-flex justify-content-center mb-4">
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://main--rep-radar.netlify.app/"  role="button" target="_blank" rel="noopener noreferrer">Deployed App</a>
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/rep-radar" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
-                                    </div>
-                                    <h5 className="card-title">Rep Radar</h5>
-                                    <p className="card-text small">A React app that finds a user's member of Congress and serves up campaign and legislative information from multiple public APIs.
-                                    Rep Radar uses complex data parsing and React state management and hooks to present information in a dynamic and engaging interface. Server-side caching and concurrent API calls optimize performance.</p>
-                                    <div>
-                                        <span className="badge me-2">Python</span>
-                                        <span className="badge me-2">FastAPI</span>
-                                        <span className="badge me-2">React</span>
-                                        <span className="badge me-2">JavaScript</span>
-                                        <span className="badge me-2">Bootstrap</span>
-                                        <span className=" badge me-2">HTML</span>
-                                        <span className="badge me-2">CSS</span>
                                     </div>
                                 </div>
                             </div>
