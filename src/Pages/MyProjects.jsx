@@ -22,7 +22,7 @@ export default function MyProjects() {
                                         <span className="badge me-2">React</span>
                                         <span className="badge me-2">JavaScript</span>
                                         <span className="badge me-2">Bootstrap</span>
-                                        <span className=" badge me-2">HTML</span>
+                                        <span className=" badge me-2">JSX</span>
                                         <span className="badge me-2">CSS</span>
                                     </div>
                                 </div>

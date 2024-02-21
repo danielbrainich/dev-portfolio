@@ -8,17 +8,12 @@ export default function AboutMe() {
                     Hi, I'm Daniel.
                     </p>
                     <p className="mb-3 bigger">
-                    I'm an avid trail runner and a software developer searching for my first role. I recently graduated from an immersive software engineering bootcamp,
-                    where I honed my programming skills and built some awesome full-stack apps. I'm having a blast building apps that are fun and unique, and learning new ways to optimize
-                    them for better performance and a more engaging user experience.
+                    I'm an avid trail runner and a full-stack software engineer. I'm passionate about developing ideas into efficient and user-friendly web applications, and I love the challenge
+                    of learning new tools, frameworks, and programming languages.
                     </p>
                     <p className="mb-3 bigger">
-                    My coding journey actually began years earlier. I first used SQL to work with large datasets related to global development while pursuing an MA in international affairs.
-                    I didn't think of myself as a coder at the time, but that's where I first discovered that coding can be powerful, impactful, and also fun!
-                    </p>
-                    <p className="mb-3 bigger">
-                    Before devoting myself full-time to software development, I completed my MA and then held a number of management roles in the international development and hospitality
-                    industries. Now, I'm thrilled to bring my unique blend of skills, perspectives, and passions to the world of software engineering!
+                    As a professional and as a teammate, I'm collaborative, motivated, and committed to finding the best solutions to engineering problems. In my free time, I have a blast building
+                    apps that are fun and unique, and finding new ways to optimize them for better performance and a more engaging user experience.
                     </p>
                     <div className="d-flex flex-wrap justify-content-between">
                         <div className="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
@@ -54,6 +49,7 @@ export default function AboutMe() {
                                 <h4>Frontend</h4>
                                 <ul className="list-unstyled d-flex flex-column flex-md-row flex-wrap">
                                         <li className="me-md-3 mb-2 mb-md-0">React</li>
+                                        <li className="me-md-3 mb-2 mb-md-0">JSX</li>
                                         <li className="me-md-3 mb-2 mb-md-0">Bootstrap</li>
                                     </ul>
                                 </div>
