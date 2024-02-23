@@ -7,10 +7,35 @@ export default function MyProjects() {
                     <div className="col-12 col-md-8 col-lg-6 col-xl-4 mb-4">
                         <div className="card h-100">
                             <div className="row g-0">
+                                <img src="../img/trail-people-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
+                                <div className="card-body">
+                                    <div className="d-flex justify-content-center mb-4">
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1 bg-secondary" role="button" target="_blank" rel="noopener noreferrer">Live App Coming Soon!</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/trail-people" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
+                                    </div>
+                                    <h5 className="card-title">Trail People</h5>
+                                    <p className="card-text small">A full-stack Django/React social media platform designed for the trail running community. Trail People features essential social engagement functionalities like posts, comments, and likes, alongside Google Maps integration for creating, sharing, and searching custom trail maps. Leveraging React for seamless interactivity and Bootstrap for responsiveness across devices, it offers a comprehensive experience for trail runners.</p>
+                                    <div>
+                                        <span className="badge me-2">Python</span>
+                                        <span className="badge me-2">Django</span>
+                                        <span className="badge me-2">React</span>
+                                        <span className="badge me-2">JavaScript</span>
+                                        <span className="badge me-2">Bootstrap</span>
+                                        <span className=" badge me-2">JSX</span>
+                                        <span className="badge me-2">CSS</span>
+                                        <span className="badge me-2">Google Maps JavaScript API</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-8 col-lg-6 col-xl-4 mb-4">
+                        <div className="card h-100">
+                            <div className="row g-0">
                                 <img src="../img/rep-radar-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://main--rep-radar.netlify.app/"  role="button" target="_blank" rel="noopener noreferrer">Deployed App</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://main--rep-radar.netlify.app/"  role="button" target="_blank" rel="noopener noreferrer">Live App</a>
                                         <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/rep-radar" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
                                     </div>
                                     <h5 className="card-title">Rep Radar</h5>
@@ -35,7 +60,7 @@ export default function MyProjects() {
                                 <img src="../img/race-tracker-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                 <div className="d-flex justify-content-center mb-4">
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://race-tracker-e0e5cf38a81d.herokuapp.com/"  role="button" target="_blank" rel="noopener noreferrer">Deployed app</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://race-tracker-e0e5cf38a81d.herokuapp.com/"  role="button" target="_blank" rel="noopener noreferrer">Live App</a>
                                         <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/race-tracker" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
                                     </div>
                                     <h5 className="card-title">Race Tracker</h5>
@@ -58,7 +83,7 @@ export default function MyProjects() {
                                 <img src="../img/insults-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://www.siliconvalleyinsults.com"  role="button" target="_blank" rel="noopener noreferrer">Deployed app</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://www.siliconvalleyinsults.com"  role="button" target="_blank" rel="noopener noreferrer">Live App</a>
                                         <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/silicon-valley-insults" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
                                     </div>
                                     <h5 className="card-title">Silicon Valley Insults</h5>
@@ -82,7 +107,7 @@ export default function MyProjects() {
                                 <img src="../img/portfolio-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="#">Deployed app</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="#">Live App</a>
                                         <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/dev-portfolio" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
                                     </div>
                                     <h5 className="card-title">Dev Portfolio</h5>
