@@ -12,6 +12,7 @@ body {
     --grey: #706A61;
     --dark-blue: #3B576D;
     --orange: #E1854A;
+    --light-orange: #E6A079;
     --light-blue: #7BBCCF;
   ;
 }
@@ -230,7 +231,7 @@ a {
 }
 
 .btn-projects:hover {
-  background-color: var(--light-blue);
+  background-color: var(--light-orange);
   color: var(--beige)
 }
 
@@ -267,7 +268,7 @@ a {
 }
 
 .btn-contact-me:hover {
-  background-color: var(--light-blue);
+  background-color: var(--light-orange);
   color: var(--white);
 }
 

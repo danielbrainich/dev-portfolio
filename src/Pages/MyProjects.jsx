@@ -10,11 +10,11 @@ export default function MyProjects() {
                                 <img src="../img/trail-people-screenshot.png" className="img-fluid rounded-start p-4" alt="Test" />
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
-                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1 bg-secondary" role="button" target="_blank" rel="noopener noreferrer">Live App Coming Soon!</a>
+                                        <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://trail-people-06a6eafa5395.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">Live App</a>
                                         <a className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1" href="https://github.com/danielbrainich/trail-people" role="button" target="_blank" rel="noopener noreferrer">Codebase</a>
                                     </div>
                                     <h5 className="card-title">Trail People</h5>
-                                    <p className="card-text small">A full-stack Django/React social media platform designed for the trail running community. Trail People features essential social engagement functionalities like posts, comments, and likes, alongside Google Maps integration for creating, sharing, and searching custom trail maps. Leveraging React for seamless interactivity and Bootstrap for responsiveness across devices, it offers a comprehensive experience for trail runners.</p>
+                                    <p className="card-text small">A full-stack Django/React social platform designed for trail runners. Users can post, comment, and like, as well as create, share, and save custom Google Maps API-powered trail maps. Trail People leverages React for seamless interactivity and Bootstrap for responsiveness across devices. Secure frontend and backend authentication ensures a secure user experience.</p>
                                     <div>
                                         <span className="badge me-2">Python</span>
                                         <span className="badge me-2">Django</span>
