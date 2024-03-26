@@ -14,6 +14,7 @@ body {
     --orange: #E1854A;
     --light-orange: #E6A079;
     --light-blue: #7BBCCF;
+    --mitzvah-blue: #82CBFF;
   ;
 }
 
@@ -22,6 +23,13 @@ body {
 @font-face {
   font-family: 'sp-blunt-regular';
   src: url('../public/sp-blunt-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nayuki-regular';
+  src: url('../public/NayukiRegular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -302,4 +310,52 @@ a {
 #footer {
   height: 10vh;
   background-color: var(--beige);
+}
+
+
+/* AppMitzvah */
+
+#app-mitzvah {
+  min-height: 100vh;
+  background-color: black;
+}
+
+.app-mitzvah-header {
+  font-size: 7rem;
+  line-height: 8rem;
+  font-family: 'nayuki-regular';
+  text-transform: none;
+  color: var(--mitzvah-blue);
+}
+
+@media screen and (max-width: 768px) {
+  .app-mitzvah-header {
+    font-size: 4rem; /* Adjust the font size as needed for smaller screens */
+    line-height: 5rem; /* Adjust the line height accordingly */
+  }
+}
+
+.app-mitzvah-subheader {
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: white;
+}
+
+#app-mitzvah ul {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--mitzvah-blue);
+}
+
+#app-mitzvah a {
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+.app-mitzvah-screenshot {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }

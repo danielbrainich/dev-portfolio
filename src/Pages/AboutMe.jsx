@@ -49,8 +49,11 @@ export default function AboutMe() {
                                 <h4>Frontend</h4>
                                 <ul className="list-unstyled d-flex flex-column flex-md-row flex-wrap">
                                         <li className="me-md-3 mb-2 mb-md-0">React</li>
+                                        <li className="me-md-3 mb-2 mb-md-0">React Native</li>
+                                        <li className="me-md-3 mb-2 mb-md-0">Redux</li>
                                         <li className="me-md-3 mb-2 mb-md-0">JSX</li>
                                         <li className="me-md-3 mb-2 mb-md-0">Bootstrap</li>
+                                        <li className="me-md-3 mb-2 mb-md-0">Mobile Apps</li>
                                     </ul>
                                 </div>
                             </div>
@@ -65,6 +68,7 @@ export default function AboutMe() {
                                         <li className="me-md-3 mb-2 mb-md-0">CI/CD</li>
                                         <li className="me-md-3 mb-2 mb-md-0">Heroku</li>
                                         <li className="me-md-3 mb-2 mb-md-0">Netlify</li>
+                                        <li className="me-md-3 mb-2 mb-md-0">Expo</li>
                                     </ul>
                                 </div>
                             </div>
