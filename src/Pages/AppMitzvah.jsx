@@ -27,7 +27,7 @@ export default function AppMitzvah() {
                             <li>
                                 <strong>Step 3:</strong> Once you have Expo Go
                                 installed, you can launch AppMitzvah by tapping{" "}
-                                <a href="exp://u.expo.dev/update/174c8178-f82b-468c-aa77-13b670f14000">
+                                <a href="exp://u.expo.dev/update/de4452f4-494c-43b3-b045-e0c563622523">
                                     this link
                                 </a>{" "}
                                 on your iOS device or scanning the QR code
