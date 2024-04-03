@@ -75,7 +75,7 @@ export default function MyProjects() {
                                 />
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center mb-4">
-                                        <Link
+                                        <a
                                             className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1"
                                             href="https://trail-people-06a6eafa5395.herokuapp.com/"
                                             role="button"
@@ -83,7 +83,7 @@ export default function MyProjects() {
                                             rel="noopener noreferrer"
                                         >
                                             Live App
-                                        </Link>
+                                        </a>
                                         <a
                                             className="btn btn-sm btn-projects px-3 mx-1 flex-grow-1"
                                             href="https://github.com/danielbrainich/trail-people"
