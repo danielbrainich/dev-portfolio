@@ -58,7 +58,7 @@ export default function Navbar() {
                       <li className="nav-item">
                         <a
                         className="nav-link pe-4 nav-link-pointer"
-                        href="../daniel-brainich-resume.pdf"
+                        href="../daniel-brainich-dev-resume.pdf"
                         role="button"
                         target="_blank"
                         > Resumé
