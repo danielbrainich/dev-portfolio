@@ -36,7 +36,7 @@ export default function AppMitzvah() {
                             <img
                                 className="img-fluid m-3"
                                 width={200}
-                                src="./img/eas-update.svg"
+                                src="./img/app-mitzvah-qr.png"
                                 alt="QR code for AppMitzvah"
                             />
                         </ul>
